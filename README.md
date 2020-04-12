@@ -2,8 +2,7 @@
 Extra keyboard layouts for IBUS
 
 # Summary
-`.mim` files define IMEs for ibus-m17n. Ibus did not have support for Icelandic so I created my own. They are written in Lisp (I think...)
-My primary resource for creating these files was https://www.nongnu.org/m17n/manual-en/m17nDBTutorial.html
+`.mim` files define IMEs for ibus-m17n. Ibus did not have support for Icelandic so I created my own. My primary resource for creating these files was https://www.nongnu.org/m17n/manual-en/m17nDBTutorial.html
 
 # Currently Implemented
 - [x] Standard keys
