@@ -1,2 +1,17 @@
 # ibus-keyboards
 Extra keyboard layouts for IBUS
+
+# Summary
+`.mim` files define IMEs for ibus-m17n. Ibus did not have support for Faroese and Icelandic so I created my own. They are written in Lisp (I think...)
+
+# Manual Installation
+There are two options for installing these layouts.
+
+### Installing for a single user
+Copy the `.mim` file into `~/.m17n.d` and restart ibus (`ibus-daemon -rdx`)
+
+### Installing system-wide (requires root)
+Copy the `.mim` file into `/usr/share/m17n` and restart ibus (`ibus-daemon -rdx`)
+
+# Conclusion
+That's it! It's fairly simple. One last request: I'm not sure how these mappings behave on non-US keyboards, so please reach out to me if there are problems.
